@@ -2,9 +2,7 @@
 <a id="introduction"></a>
 # The CDR Test Documentation
 
-File version: 1.0.0
-
-Compliant with CDR standards version 1.16.1
+File version: 1.0.1
 
 This documentation has been  created by the DSB to assist participants in the development of compliant APIs
 
@@ -151,22 +149,22 @@ This documentation has been  created by the DSB to assist participants in the de
 
 ### Test Scenarios:
 
-* [S.EAR.073: Get Service Points](#scenario-s.ear.073)
-* [S.EAR.074: Get Service Points Negative](#scenario-s.ear.074)
-* [S.EAR.075: Get Service Point Detail](#scenario-s.ear.075)
-* [S.EAR.076: Get Service Point Detail Negative](#scenario-s.ear.076)
-* [S.EAR.077: Get Usage For Service Point](#scenario-s.ear.077)
-* [S.EAR.078: Get Usage For Service Point Negative](#scenario-s.ear.078)
-* [S.EAR.079: Get Bulk Usage](#scenario-s.ear.079)
-* [S.EAR.080: Get Bulk Usage Negative](#scenario-s.ear.080)
-* [S.EAR.081: Get Usage For Specific Service Points](#scenario-s.ear.081)
-* [S.EAR.082: Get Usage For Specific Service Points Negative](#scenario-s.ear.082)
-* [S.EAR.083: Get DER for Service Point](#scenario-s.ear.083)
-* [S.EAR.084: Get DER for Service Point Negative](#scenario-s.ear.084)
-* [S.EAR.085: Get Bulk DER](#scenario-s.ear.085)
-* [S.EAR.086: Get Bulk DER Negative](#scenario-s.ear.086)
-* [S.EAR.087: Get DER For Specific Service Points](#scenario-s.ear.087)
-* [S.EAR.088: Get DER For Specific Service Points Negative ](#scenario-s.ear.088)
+* [S.EAR.073: Get Service Points v1](#scenario-s.ear.073)
+* [S.EAR.074: Get Service Points Negative v1](#scenario-s.ear.074)
+* [S.EAR.075: Get Service Point Detail v1](#scenario-s.ear.075)
+* [S.EAR.076: Get Service Point Detail Negative v1](#scenario-s.ear.076)
+* [S.EAR.077: Get Usage For Service Point v1](#scenario-s.ear.077)
+* [S.EAR.078: Get Usage For Service Point Negative v1](#scenario-s.ear.078)
+* [S.EAR.079: Get Bulk Usage v1](#scenario-s.ear.079)
+* [S.EAR.080: Get Bulk Usage Negative v1](#scenario-s.ear.080)
+* [S.EAR.081: Get Usage For Specific Service Points v1](#scenario-s.ear.081)
+* [S.EAR.082: Get Usage For Specific Service Points Negative v1](#scenario-s.ear.082)
+* [S.EAR.083: Get DER for Service Point v1](#scenario-s.ear.083)
+* [S.EAR.084: Get DER for Service Point Negative v1](#scenario-s.ear.084)
+* [S.EAR.085: Get Bulk DER v1](#scenario-s.ear.085)
+* [S.EAR.086: Get Bulk DER Negative v1](#scenario-s.ear.086)
+* [S.EAR.087: Get DER For Specific Service Points v1](#scenario-s.ear.087)
+* [S.EAR.088: Get DER For Specific Service Points Negative  v1](#scenario-s.ear.088)
 
 
 <a id="suite-suite.011"></a>
@@ -174,18 +172,18 @@ This documentation has been  created by the DSB to assist participants in the de
 
 ### Test Scenarios:
 
-* [S.EAS.089: Get Service Points SR](#scenario-s.eas.089)
-* [S.EAS.090: Get Service Points Negative SR](#scenario-s.eas.090)
-* [S.EAS.091: Get Service Point Detail SR](#scenario-s.eas.091)
-* [S.EAS.092: Get Service Point Detail Negative SR](#scenario-s.eas.092)
-* [S.EAS.093: Get Usage For Service Point SR](#scenario-s.eas.093)
-* [S.EAS.094: Get Usage For Service Point Negative SR](#scenario-s.eas.094)
-* [S.EAS.095: Get Usage For Specific Service Points SR](#scenario-s.eas.095)
-* [S.EAS.096: Get Usage For Specific Service Points Negative SR](#scenario-s.eas.096)
-* [S.EAS.097: Get DER for Service Point SR](#scenario-s.eas.097)
-* [S.EAS.098: Get DER for Service Point Negative SR](#scenario-s.eas.098)
-* [S.EAS.099: Get DER For Specific Service Points SR](#scenario-s.eas.099)
-* [S.EAS.100: Get DER For Specific Service Points Negative SR](#scenario-s.eas.100)
+* [S.EAS.089: Get Service Points SR v1](#scenario-s.eas.089)
+* [S.EAS.090: Get Service Points Negative SR v1](#scenario-s.eas.090)
+* [S.EAS.091: Get Service Point Detail SR v1](#scenario-s.eas.091)
+* [S.EAS.092: Get Service Point Detail Negative SR v1](#scenario-s.eas.092)
+* [S.EAS.093: Get Usage For Service Point SR v1](#scenario-s.eas.093)
+* [S.EAS.094: Get Usage For Service Point Negative SR v1](#scenario-s.eas.094)
+* [S.EAS.095: Get Usage For Specific Service Points SR v1](#scenario-s.eas.095)
+* [S.EAS.096: Get Usage For Specific Service Points Negative SR v1](#scenario-s.eas.096)
+* [S.EAS.097: Get DER for Service Point SR v1](#scenario-s.eas.097)
+* [S.EAS.098: Get DER for Service Point Negative SR v1](#scenario-s.eas.098)
+* [S.EAS.099: Get DER For Specific Service Points SR v1](#scenario-s.eas.099)
+* [S.EAS.100: Get DER For Specific Service Points Negative SR v1](#scenario-s.eas.100)
 
 
 <a id="scenarios"></a>
@@ -204,7 +202,7 @@ Test the Get Accounts endpoint
 
 
 <a id="scenario-s.ear.073"></a>
-## S.EAR.073: Get Service Points
+## S.EAR.073: Get Service Points v1
 
 As a DH I provide an API which exposes information about the service points
 
@@ -227,7 +225,7 @@ Test cases which will return a 2xx status code
 
 
 <a id="scenario-s.ear.074"></a>
-## S.EAR.074: Get Service Points Negative
+## S.EAR.074: Get Service Points Negative v1
 
 As a DH I return appropriate codes and messages for failed or invalid requests
 
@@ -260,7 +258,7 @@ Test cases which will return codes other than 2xx
 
 
 <a id="scenario-s.ear.075"></a>
-## S.EAR.075: Get Service Point Detail
+## S.EAR.075: Get Service Point Detail v1
 
 ### Testing Sequence:
 
@@ -270,7 +268,7 @@ Test cases which will return codes other than 2xx
 
 
 <a id="scenario-s.ear.076"></a>
-## S.EAR.076: Get Service Point Detail Negative
+## S.EAR.076: Get Service Point Detail Negative v1
 
 ### Testing Sequence:
 
@@ -292,7 +290,7 @@ Test cases which will return codes other than 2xx
 
 
 <a id="scenario-s.ear.077"></a>
-## S.EAR.077: Get Usage For Service Point
+## S.EAR.077: Get Usage For Service Point v1
 
 ### Testing Sequence:
 
@@ -305,7 +303,7 @@ Test cases which will return codes other than 2xx
 
 
 <a id="scenario-s.ear.078"></a>
-## S.EAR.078: Get Usage For Service Point Negative
+## S.EAR.078: Get Usage For Service Point Negative v1
 
 ### Testing Sequence:
 
@@ -330,7 +328,7 @@ Test cases which will return codes other than 2xx
 
 
 <a id="scenario-s.ear.079"></a>
-## S.EAR.079: Get Bulk Usage
+## S.EAR.079: Get Bulk Usage v1
 
 ### Testing Sequence:
 
@@ -343,7 +341,7 @@ Test cases which will return codes other than 2xx
 
 
 <a id="scenario-s.ear.080"></a>
-## S.EAR.080: Get Bulk Usage Negative
+## S.EAR.080: Get Bulk Usage Negative v1
 
 ### Testing Sequence:
 
@@ -366,7 +364,7 @@ Test cases which will return codes other than 2xx
 
 
 <a id="scenario-s.ear.081"></a>
-## S.EAR.081: Get Usage For Specific Service Points
+## S.EAR.081: Get Usage For Specific Service Points v1
 
 ### Testing Sequence:
 
@@ -379,7 +377,7 @@ Test cases which will return codes other than 2xx
 
 
 <a id="scenario-s.ear.082"></a>
-## S.EAR.082: Get Usage For Specific Service Points Negative
+## S.EAR.082: Get Usage For Specific Service Points Negative v1
 
 ### Testing Sequence:
 
@@ -404,7 +402,7 @@ Test cases which will return codes other than 2xx
 
 
 <a id="scenario-s.ear.083"></a>
-## S.EAR.083: Get DER for Service Point
+## S.EAR.083: Get DER for Service Point v1
 
 ### Testing Sequence:
 
@@ -414,7 +412,7 @@ Test cases which will return codes other than 2xx
 
 
 <a id="scenario-s.ear.084"></a>
-## S.EAR.084: Get DER for Service Point Negative
+## S.EAR.084: Get DER for Service Point Negative v1
 
 ### Testing Sequence:
 
@@ -436,7 +434,7 @@ Test cases which will return codes other than 2xx
 
 
 <a id="scenario-s.ear.085"></a>
-## S.EAR.085: Get Bulk DER
+## S.EAR.085: Get Bulk DER v1
 
 ### Testing Sequence:
 
@@ -447,7 +445,7 @@ Test cases which will return codes other than 2xx
 
 
 <a id="scenario-s.ear.086"></a>
-## S.EAR.086: Get Bulk DER Negative
+## S.EAR.086: Get Bulk DER Negative v1
 
 ### Testing Sequence:
 
@@ -470,7 +468,7 @@ Test cases which will return codes other than 2xx
 
 
 <a id="scenario-s.ear.087"></a>
-## S.EAR.087: Get DER For Specific Service Points
+## S.EAR.087: Get DER For Specific Service Points v1
 
 ### Testing Sequence:
 
@@ -481,7 +479,7 @@ Test cases which will return codes other than 2xx
 
 
 <a id="scenario-s.ear.088"></a>
-## S.EAR.088: Get DER For Specific Service Points Negative 
+## S.EAR.088: Get DER For Specific Service Points Negative  v1
 
 ### Testing Sequence:
 
@@ -504,13 +502,13 @@ Test cases which will return codes other than 2xx
 
 
 <a id="scenario-s.eas.089"></a>
-## S.EAS.089: Get Service Points SR
+## S.EAS.089: Get Service Points SR v1
 
 Test the Happy Path for Get Service Points
 
 ### References:
 
-* [<https://consumerdatastandardsaustralia.github.io/standards/#get-service-points-sr> ](<https://consumerdatastandardsaustralia.github.io/standards/#get-service-points-sr> )
+* [https://consumerdatastandardsaustralia.github.io/standards/#get-service-points-sr](https://consumerdatastandardsaustralia.github.io/standards/#get-service-points-sr)
 
 
 ### Testing Sequence:
@@ -522,34 +520,34 @@ Test the Happy Path for Get Service Points
 
 
 <a id="scenario-s.eas.090"></a>
-## S.EAS.090: Get Service Points Negative SR
+## S.EAS.090: Get Service Points Negative SR v1
 
 Test errors and edge cases for Get Service Points 
 
 ### References:
 
-* [<https://consumerdatastandardsaustralia.github.io/standards/#get-service-points-sr> ](<https://consumerdatastandardsaustralia.github.io/standards/#get-service-points-sr> )
+* [https://consumerdatastandardsaustralia.github.io/standards/#get-service-points-sr](https://consumerdatastandardsaustralia.github.io/standards/#get-service-points-sr)
 
 
 ### Testing Sequence:
 
 |Action No.|Action Type|Detail|
 |-|-|-|
-|1|Execute Test|[T.EAS.003: DH call to SDH: Get Service Points - unsupported version without x-v-min included](#testcase-t.eas.003)|
+|1|Execute Test|[T.EAS.003: DH call to SDH: Get Service Points - unsupported version without x-min-v included](#testcase-t.eas.003)|
 |2|Execute Test|[T.EAS.004: DH call to SDH: Get Service Points - invalid page parameters](#testcase-t.eas.004)|
 |3|Execute Test|[T.EAS.039: DH call to SDH: Get Service Points - invalid FAPI Interaction ID format ](#testcase-t.eas.039)|
 |4|Execute Test|[T.EAS.045: DH call to SDH: Get Service Points - no arragement id ](#testcase-t.eas.045)|
 |5|Execute Test|[T.EAS.046: DH call to SDH: Get Service Points - arrangement ID invalid](#testcase-t.eas.046)|
 |6|Execute Test|[T.EAS.057: DH call to SDH: Get Service Points - invalid version value](#testcase-t.eas.057)|
 |7|Execute Test|[T.EAS.058: DH call to SDH: Get Service Points - invalid version format](#testcase-t.eas.058)|
-|8|Execute Test|[T.EAS.069: DH call to SDH: Get Service Points - unsupported version when x-v-min is included](#testcase-t.eas.069)|
+|8|Execute Test|[T.EAS.069: DH call to SDH: Get Service Points - unsupported version when x-min-v is included](#testcase-t.eas.069)|
 |9|Execute Test|[T.EAS.075: DH call to SDH: Get Service Points - missing servicePointId in body](#testcase-t.eas.075)|
 |10|Execute Test|[T.EAS.076: DH call to SDH: Get Service Points - invalid servicePointId in body](#testcase-t.eas.076)|
 |11|Execute Test|[T.EAS.077: DH call to SDH: Get Service Points - unavailable servicePointId in body](#testcase-t.eas.077)|
 
 
 <a id="scenario-s.eas.091"></a>
-## S.EAS.091: Get Service Point Detail SR
+## S.EAS.091: Get Service Point Detail SR v1
 
 ### Testing Sequence:
 
@@ -559,13 +557,13 @@ Test errors and edge cases for Get Service Points
 
 
 <a id="scenario-s.eas.092"></a>
-## S.EAS.092: Get Service Point Detail Negative SR
+## S.EAS.092: Get Service Point Detail Negative SR v1
 
 ### Testing Sequence:
 
 |Action No.|Action Type|Detail|
 |-|-|-|
-|1|Execute Test|[T.EAS.006: DH call to SDH: Get Service Point Detail - unsupported version without x-v-min included](#testcase-t.eas.006)|
+|1|Execute Test|[T.EAS.006: DH call to SDH: Get Service Point Detail - unsupported version without x-min-v included](#testcase-t.eas.006)|
 |2|Execute Test|[T.EAS.007: DH call to SDH: Get Service Point Detail - invalid format of Service Point ID](#testcase-t.eas.007)|
 |3|Execute Test|[T.EAS.008: DH call to SDH: Get Service Point Detail - unavailable Service Point ID](#testcase-t.eas.008)|
 |4|Execute Test|[T.EAS.040: DH call to SDH: Get Service Point Detail - invalid FAPI Interaction ID format ](#testcase-t.eas.040)|
@@ -573,11 +571,11 @@ Test errors and edge cases for Get Service Points
 |6|Execute Test|[T.EAS.048: DH call to SDH: Get Service Point Detail - arrangement ID invalid](#testcase-t.eas.048)|
 |7|Execute Test|[T.EAS.059: DH call to SDH: Get Service Point Detail - invalid version value](#testcase-t.eas.059)|
 |8|Execute Test|[T.EAS.060: DH call to SDH: Get Service Point Detail - invalid version format](#testcase-t.eas.060)|
-|9|Execute Test|[T.EAS.070: DH call to SDH: Get Service Point Detail - unsupported version when x-v-min is included](#testcase-t.eas.070)|
+|9|Execute Test|[T.EAS.070: DH call to SDH: Get Service Point Detail - unsupported version when x-min-v is included](#testcase-t.eas.070)|
 
 
 <a id="scenario-s.eas.093"></a>
-## S.EAS.093: Get Usage For Service Point SR
+## S.EAS.093: Get Usage For Service Point SR v1
 
 ### Testing Sequence:
 
@@ -589,13 +587,13 @@ Test errors and edge cases for Get Service Points
 
 
 <a id="scenario-s.eas.094"></a>
-## S.EAS.094: Get Usage For Service Point Negative SR
+## S.EAS.094: Get Usage For Service Point Negative SR v1
 
 ### Testing Sequence:
 
 |Action No.|Action Type|Detail|
 |-|-|-|
-|1|Execute Test|[T.EAS.011: DH call to SDH: Get Usage for Service Points - unsupported version without x-v-min included](#testcase-t.eas.011)|
+|1|Execute Test|[T.EAS.011: DH call to SDH: Get Usage for Service Points - unsupported version without x-min-v included](#testcase-t.eas.011)|
 |2|Execute Test|[T.EAS.012: DH call to SDH: Get Usage for Service Points - invalid page parameters](#testcase-t.eas.012)|
 |3|Execute Test|[T.EAS.013: DH call to SDH: Get Usage for Service Points - oldest date](#testcase-t.eas.013)|
 |4|Execute Test|[T.EAS.015: DH call to SDH: Get Usage for Service Points - invalid Service Point ID](#testcase-t.eas.015)|
@@ -607,30 +605,30 @@ Test errors and edge cases for Get Service Points
 |10|Execute Test|[T.EAS.050: DH call to SDH: Get Usage For Service Point - arrangement ID invalid](#testcase-t.eas.050)|
 |11|Execute Test|[T.EAS.061: DH call to SDH: Get Usage For Service Point - invalid version value](#testcase-t.eas.061)|
 |12|Execute Test|[T.EAS.062: DH call to SDH: Get Usage For Service Point - invalid version format](#testcase-t.eas.062)|
-|13|Execute Test|[T.EAS.071: DH call to SDH: Get Usage for Service Points - unsupported version when x-v-min is included](#testcase-t.eas.071)|
+|13|Execute Test|[T.EAS.071: DH call to SDH: Get Usage for Service Points - unsupported version when x-min-v is included](#testcase-t.eas.071)|
 
 
 <a id="scenario-s.eas.095"></a>
-## S.EAS.095: Get Usage For Specific Service Points SR
+## S.EAS.095: Get Usage For Specific Service Points SR v1
 
 ### Testing Sequence:
 
 |Action No.|Action Type|Detail|
 |-|-|-|
-|1|Execute Test|[T.EAS.019: DH call to SDH: Get Usage for Specific Service Points - no pagination](#testcase-t.eas.019)|
+|1|Execute Test|[T.EAS.019](#testcase-t.eas.019)|
 |2|Execute Test|[T.EAS.020: DH call to SDH: Get Usage for Specific Service Points - with pagination](#testcase-t.eas.020)|
 |3|Execute Test|[T.EAS.023: DH call to SDH: Get Usage for Specific Service Points - oldest date](#testcase-t.eas.023)|
 |4|Execute Test|[T.EAS.024: DH call to SDH: Get Usage for Specific Service Points - newest date](#testcase-t.eas.024)|
 
 
 <a id="scenario-s.eas.096"></a>
-## S.EAS.096: Get Usage For Specific Service Points Negative SR
+## S.EAS.096: Get Usage For Specific Service Points Negative SR v1
 
 ### Testing Sequence:
 
 |Action No.|Action Type|Detail|
 |-|-|-|
-|1|Execute Test|[T.EAS.021: DH call to SDH: Get Usage for Specific Service Points - unsupported version without x-v-min included](#testcase-t.eas.021)|
+|1|Execute Test|[T.EAS.021: DH call to SDH: Get Usage for Specific Service Points - unsupported version without x-min-v included](#testcase-t.eas.021)|
 |2|Execute Test|[T.EAS.022: DH call to SDH: Get Usage for Specific Service Points - invalid page parameters](#testcase-t.eas.022)|
 |3|Execute Test|[T.EAS.025: DH call to SDH: Get Usage for Specific Service Points - invalid format oldest date ](#testcase-t.eas.025)|
 |4|Execute Test|[T.EAS.026: DH call to SDH: Get Usage for Specific Service Points - invalid format newest date](#testcase-t.eas.026)|
@@ -641,27 +639,27 @@ Test errors and edge cases for Get Service Points
 |9|Execute Test|[T.EAS.052: DH call to SDH: Get Usage For Specific Service Points - arrangement ID invalid](#testcase-t.eas.052)|
 |10|Execute Test|[T.EAS.063: DH call to SDH: Get Usage For Specific Service Points - invalid version value](#testcase-t.eas.063)|
 |11|Execute Test|[T.EAS.064: DH call to SDH: Get Usage For Specific Service Points - invalid version format](#testcase-t.eas.064)|
-|12|Execute Test|[T.EAS.072: DH call to SDH: Get Usage for Specific Service Points - unsupported version when x-v-min is included](#testcase-t.eas.072)|
+|12|Execute Test|[T.EAS.072: DH call to SDH: Get Usage for Specific Service Points - unsupported version when x-min-v  is included](#testcase-t.eas.072)|
 
 
 <a id="scenario-s.eas.097"></a>
-## S.EAS.097: Get DER for Service Point SR
+## S.EAS.097: Get DER for Service Point SR v1
 
 ### Testing Sequence:
 
 |Action No.|Action Type|Detail|
 |-|-|-|
-|1|Execute Test|[T.EAS.027](#testcase-t.eas.027)|
+|1|Execute Test|[T.EAS.027: DH call to SDH: Get DER for Service Point ](#testcase-t.eas.027)|
 
 
 <a id="scenario-s.eas.098"></a>
-## S.EAS.098: Get DER for Service Point Negative SR
+## S.EAS.098: Get DER for Service Point Negative SR v1
 
 ### Testing Sequence:
 
 |Action No.|Action Type|Detail|
 |-|-|-|
-|1|Execute Test|[T.EAS.028: DH call to SDH: Get Service Point Detail - unsupported version without x-v-min included](#testcase-t.eas.028)|
+|1|Execute Test|[T.EAS.028: DH call to SDH: Get Service Point Detail - unsupported version without x-min-v included](#testcase-t.eas.028)|
 |2|Execute Test|[T.EAS.029: DH call to SDH: Get Service Point Detail - invalid format of Service Point ID](#testcase-t.eas.029)|
 |3|Execute Test|[T.EAS.030: DH call to SDH: Get Service Point Detail - unavailable Service Point ID](#testcase-t.eas.030)|
 |4|Execute Test|[T.EAS.043: DH call to SDH: Get DER for Service Point - invalid FAPI Interaction ID format](#testcase-t.eas.043)|
@@ -669,11 +667,11 @@ Test errors and edge cases for Get Service Points
 |6|Execute Test|[T.EAS.054: DH call to SDH: Get DER for Service Point - arrangement ID invalid](#testcase-t.eas.054)|
 |7|Execute Test|[T.EAS.065: DH call to SDH: Get DER for Service Point - invalid version value](#testcase-t.eas.065)|
 |8|Execute Test|[T.EAS.066: DH call to SDH: Get DER for Service Point - invalid version format](#testcase-t.eas.066)|
-|9|Execute Test|[T.EAS.073: DH call to SDH: Get Service Point Detail - unsupported version when x-v-min is included](#testcase-t.eas.073)|
+|9|Execute Test|[T.EAS.073: DH call to SDH: Get Service Point Detail - unsupported version when x-min-v is included](#testcase-t.eas.073)|
 
 
 <a id="scenario-s.eas.099"></a>
-## S.EAS.099: Get DER For Specific Service Points SR
+## S.EAS.099: Get DER For Specific Service Points SR v1
 
 ### Testing Sequence:
 
@@ -684,13 +682,13 @@ Test errors and edge cases for Get Service Points
 
 
 <a id="scenario-s.eas.100"></a>
-## S.EAS.100: Get DER For Specific Service Points Negative SR
+## S.EAS.100: Get DER For Specific Service Points Negative SR v1
 
 ### Testing Sequence:
 
 |Action No.|Action Type|Detail|
 |-|-|-|
-|1|Execute Test|[T.EAS.033: DH call to SDH: Get DER for Specific Service Points - unsupported version without x-v-min included](#testcase-t.eas.033)|
+|1|Execute Test|[T.EAS.033: DH call to SDH: Get DER for Specific Service Points - unsupported version without x-min-v included](#testcase-t.eas.033)|
 |2|Execute Test|[T.EAS.034: DH call to SDH: Get DER for Specific Service Points - invalid page parameters](#testcase-t.eas.034)|
 |3|Execute Test|[T.EAS.035: DH call to SDH: Get DER for Specific Service Points - invalid body values](#testcase-t.eas.035)|
 |4|Execute Test|[T.EAS.036: DH call to SDH: Get DER for Specific Service Points - invalid body format](#testcase-t.eas.036)|
@@ -699,7 +697,7 @@ Test errors and edge cases for Get Service Points
 |7|Execute Test|[T.EAS.056: DH call to SDH: Get DER For Specific Service Points - arrangement ID invalid](#testcase-t.eas.056)|
 |8|Execute Test|[T.EAS.067: DH call to SDH: Get DER For Specific Service Points - invalid version value](#testcase-t.eas.067)|
 |9|Execute Test|[T.EAS.068: DH call to SDH: Get DER For Specific Service Points - invalid version format](#testcase-t.eas.068)|
-|10|Execute Test|[T.EAS.074: DH call to SDH: Get DER for Specific Service Points - unsupported version when x-v-min is included](#testcase-t.eas.074)|
+|10|Execute Test|[T.EAS.074: DH call to SDH: Get DER for Specific Service Points - unsupported version when x-min-v is included](#testcase-t.eas.074)|
 
 
 <a id="testcases"></a>
@@ -736,7 +734,7 @@ Test API without any pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -776,7 +774,7 @@ Test API with pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -815,7 +813,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.004: Validate version - unsupported version without <x-v-min>](#assertion-a.cvn.004)
+* [A.CVN.004: Validate version - unsupported version without <x-min-v>](#assertion-a.cvn.004)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 
@@ -924,7 +922,7 @@ Test API with a vaild service point and version
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -964,7 +962,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.004: Validate version - unsupported version without <x-v-min>](#assertion-a.cvn.004)
+* [A.CVN.004: Validate version - unsupported version without <x-min-v>](#assertion-a.cvn.004)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 
@@ -1103,7 +1101,7 @@ Test API without any pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -1143,7 +1141,7 @@ Test API with pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -1182,7 +1180,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.004: Validate version - unsupported version without <x-v-min>](#assertion-a.cvn.004)
+* [A.CVN.004: Validate version - unsupported version without <x-min-v>](#assertion-a.cvn.004)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 
@@ -1259,7 +1257,7 @@ Test API with &lt;oldest date&gt; parameter
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -1301,7 +1299,7 @@ Test API without any pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -1515,7 +1513,7 @@ Test API without any pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -1555,7 +1553,7 @@ Test API with pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -1594,7 +1592,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.004: Validate version - unsupported version without <x-v-min>](#assertion-a.cvn.004)
+* [A.CVN.004: Validate version - unsupported version without <x-min-v>](#assertion-a.cvn.004)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 
@@ -1669,7 +1667,7 @@ Test API with oldest date parameter
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -1710,7 +1708,7 @@ Test API without any pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -1926,7 +1924,7 @@ Test API with a vaild service point and version
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -1966,7 +1964,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.004: Validate version - unsupported version without <x-v-min>](#assertion-a.cvn.004)
+* [A.CVN.004: Validate version - unsupported version without <x-min-v>](#assertion-a.cvn.004)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 
@@ -2105,7 +2103,7 @@ Test API without any pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -2145,7 +2143,7 @@ Test API with pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -2185,7 +2183,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.004: Validate version - unsupported version without <x-v-min>](#assertion-a.cvn.004)
+* [A.CVN.004: Validate version - unsupported version without <x-min-v>](#assertion-a.cvn.004)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 
@@ -2364,7 +2362,7 @@ Test API without any pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -2404,7 +2402,7 @@ Test API with pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -2443,7 +2441,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.004: Validate version - unsupported version without <x-v-min>](#assertion-a.cvn.004)
+* [A.CVN.004: Validate version - unsupported version without <x-min-v>](#assertion-a.cvn.004)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 
@@ -2518,7 +2516,7 @@ Test API with oldest date parameter
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -2559,7 +2557,7 @@ Test API without any pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -2913,7 +2911,7 @@ Test API without any pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFC.001: Validate FAPI Customer IP Address - is present](#assertion-a.cfc.001)
@@ -2954,7 +2952,7 @@ Test API with pagination partameters
 
 * [A.CPG.001: Validate pagination - LinksPaginated ](#assertion-a.cpg.001)
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 * [A.CFA.001: Validate FAPI Auth date - valid format](#assertion-a.cfa.001)
@@ -2992,7 +2990,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.004: Validate version - unsupported version without <x-v-min>](#assertion-a.cvn.004)
+* [A.CVN.004: Validate version - unsupported version without <x-min-v>](#assertion-a.cvn.004)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 
@@ -5202,7 +5200,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.005: Validate version - unsupported version with <x-v-min>](#assertion-a.cvn.005)
+* [A.CVN.005: Validate version - unsupported version with <x-min-v>](#assertion-a.cvn.005)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 
@@ -5238,7 +5236,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.005: Validate version - unsupported version with <x-v-min>](#assertion-a.cvn.005)
+* [A.CVN.005: Validate version - unsupported version with <x-min-v>](#assertion-a.cvn.005)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 
@@ -5274,7 +5272,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.005: Validate version - unsupported version with <x-v-min>](#assertion-a.cvn.005)
+* [A.CVN.005: Validate version - unsupported version with <x-min-v>](#assertion-a.cvn.005)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 
@@ -5310,7 +5308,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.005: Validate version - unsupported version with <x-v-min>](#assertion-a.cvn.005)
+* [A.CVN.005: Validate version - unsupported version with <x-min-v>](#assertion-a.cvn.005)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 
@@ -5346,7 +5344,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.005: Validate version - unsupported version with <x-v-min>](#assertion-a.cvn.005)
+* [A.CVN.005: Validate version - unsupported version with <x-min-v>](#assertion-a.cvn.005)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 
@@ -5382,7 +5380,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.005: Validate version - unsupported version with <x-v-min>](#assertion-a.cvn.005)
+* [A.CVN.005: Validate version - unsupported version with <x-min-v>](#assertion-a.cvn.005)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 
@@ -5418,7 +5416,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.005: Validate version - unsupported version with <x-v-min>](#assertion-a.cvn.005)
+* [A.CVN.005: Validate version - unsupported version with <x-min-v>](#assertion-a.cvn.005)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 
@@ -5454,7 +5452,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.005: Validate version - unsupported version with <x-v-min>](#assertion-a.cvn.005)
+* [A.CVN.005: Validate version - unsupported version with <x-min-v>](#assertion-a.cvn.005)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFI.002: Validate FAPI Interaction ID - not in request](#assertion-a.cfi.002)
 
@@ -5490,7 +5488,7 @@ Test API without any pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFA.004: No <x-fapi-auth-date> in header (SR specific)](#assertion-a.cfa.004)
 * [A.CFC.004: No <x-fapi-customer-ip-address> in header (SR specific)](#assertion-a.cfc.004)
@@ -5530,7 +5528,7 @@ Test API with pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFA.004: No <x-fapi-auth-date> in header (SR specific)](#assertion-a.cfa.004)
 * [A.CFC.004: No <x-fapi-customer-ip-address> in header (SR specific)](#assertion-a.cfc.004)
@@ -5541,7 +5539,7 @@ Test API with pagination partameters
 
 
 <a id="testcase-t.eas.003"></a>
-## T.EAS.003: DH call to SDH: Get Service Points - unsupported version without x-v-min included
+## T.EAS.003: DH call to SDH: Get Service Points - unsupported version without x-min-v included
 
 Positive test case
 
@@ -5571,7 +5569,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.004: Validate version - unsupported version without <x-v-min>](#assertion-a.cvn.004)
+* [A.CVN.004: Validate version - unsupported version without <x-min-v>](#assertion-a.cvn.004)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 
 
@@ -5645,7 +5643,7 @@ Test API with a vaild service point and version
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFA.004: No <x-fapi-auth-date> in header (SR specific)](#assertion-a.cfa.004)
 * [A.CFC.004: No <x-fapi-customer-ip-address> in header (SR specific)](#assertion-a.cfc.004)
@@ -5655,7 +5653,7 @@ Test API with a vaild service point and version
 
 
 <a id="testcase-t.eas.006"></a>
-## T.EAS.006: DH call to SDH: Get Service Point Detail - unsupported version without x-v-min included
+## T.EAS.006: DH call to SDH: Get Service Point Detail - unsupported version without x-min-v included
 
 Positive test case
 
@@ -5672,7 +5670,7 @@ Test API with a version that is not supported by the DH
 
 ### Execution Pre-conditions:
 
-* the value &lt;x-v&gt; is set in the request header to a version not supported by the DH
+* The value &lt;x-v&gt; is set in the request header to a version not supported by the DH
 * AND the value for &lt;x-v&gt; is in a valid  format
 
 
@@ -5685,7 +5683,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.004: Validate version - unsupported version without <x-v-min>](#assertion-a.cvn.004)
+* [A.CVN.004: Validate version - unsupported version without <x-min-v>](#assertion-a.cvn.004)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 
 
@@ -5788,7 +5786,7 @@ Test API without any pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFA.004: No <x-fapi-auth-date> in header (SR specific)](#assertion-a.cfa.004)
 * [A.CFC.004: No <x-fapi-customer-ip-address> in header (SR specific)](#assertion-a.cfc.004)
@@ -5828,7 +5826,7 @@ Test API with pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFA.004: No <x-fapi-auth-date> in header (SR specific)](#assertion-a.cfa.004)
 * [A.CFC.004: No <x-fapi-customer-ip-address> in header (SR specific)](#assertion-a.cfc.004)
@@ -5839,7 +5837,7 @@ Test API with pagination partameters
 
 
 <a id="testcase-t.eas.011"></a>
-## T.EAS.011: DH call to SDH: Get Usage for Service Points - unsupported version without x-v-min included
+## T.EAS.011: DH call to SDH: Get Usage for Service Points - unsupported version without x-min-v included
 
 Positive test case
 
@@ -5869,7 +5867,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.004: Validate version - unsupported version without <x-v-min>](#assertion-a.cvn.004)
+* [A.CVN.004: Validate version - unsupported version without <x-min-v>](#assertion-a.cvn.004)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 
 
@@ -5944,7 +5942,7 @@ Test API with &lt;oldest date&gt; parameter
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFA.004: No <x-fapi-auth-date> in header (SR specific)](#assertion-a.cfa.004)
 * [A.CFC.004: No <x-fapi-customer-ip-address> in header (SR specific)](#assertion-a.cfc.004)
@@ -5986,7 +5984,7 @@ Test API without any pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFA.004: No <x-fapi-auth-date> in header (SR specific)](#assertion-a.cfa.004)
 * [A.CFC.004: No <x-fapi-customer-ip-address> in header (SR specific)](#assertion-a.cfc.004)
@@ -6124,52 +6122,13 @@ Test API without any pagination partameters
 |Action No.|Action Type|Detail|
 |-|-|-|
 |1|Action|GET /secondary/energy/electricity/servicepoints/{servicePointId}/usage|
+|2|Action|POST /secondary/energy/electricity/servicepoints/usage|
 
 
 ### End State Assertions:
 
 * [A.CND.002: Validation the Newest Date parameter - invalid format](#assertion-a.cnd.002)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
-
-
-<a id="testcase-t.eas.019"></a>
-## T.EAS.019: DH call to SDH: Get Usage for Specific Service Points - no pagination
-
-Negative test case
-
-Obtain the electricity usage data for a specific set of service points requested by the DH
-
-### Purpose:
-
-Test API without any pagination partameters
-
-### References:
-
-* [https://consumerdatastandardsaustralia.github.io/standards/#get-usage-for-specific-service-points-sr](https://consumerdatastandardsaustralia.github.io/standards/#get-usage-for-specific-service-points-sr)
-
-
-### Execution Pre-conditions:
-
-* Neither &lt;page-size&gt; or &lt;page&gt; query parameters are provided
-
-
-### Execution Steps:
-
-|Action No.|Action Type|Detail|
-|-|-|-|
-|1|Action|POST /secondary/energy/electricity/servicepoints/usage|
-
-
-### End State Assertions:
-
-* [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
-* [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
-* [A.CFA.004: No <x-fapi-auth-date> in header (SR specific)](#assertion-a.cfa.004)
-* [A.CFC.004: No <x-fapi-customer-ip-address> in header (SR specific)](#assertion-a.cfc.004)
-* [A.CCH.004: No <x-cds-client-header> in header (SR specific)](#assertion-a.cch.004)
-* [A.CAI.001: CDS arrangement id - present and valid (SR specific)](#assertion-a.cai.001)
-* [A.EAS.006: Validate servicePointIdList body and schema - EnergyUsageListResponse](#assertion-a.eas.006)
 
 
 <a id="testcase-t.eas.020"></a>
@@ -6203,7 +6162,7 @@ Test API with pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFA.004: No <x-fapi-auth-date> in header (SR specific)](#assertion-a.cfa.004)
 * [A.CFC.004: No <x-fapi-customer-ip-address> in header (SR specific)](#assertion-a.cfc.004)
@@ -6214,7 +6173,7 @@ Test API with pagination partameters
 
 
 <a id="testcase-t.eas.021"></a>
-## T.EAS.021: DH call to SDH: Get Usage for Specific Service Points - unsupported version without x-v-min included
+## T.EAS.021: DH call to SDH: Get Usage for Specific Service Points - unsupported version without x-min-v included
 
 Positive test case
 
@@ -6244,7 +6203,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.004: Validate version - unsupported version without <x-v-min>](#assertion-a.cvn.004)
+* [A.CVN.004: Validate version - unsupported version without <x-min-v>](#assertion-a.cvn.004)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 
 
@@ -6317,7 +6276,7 @@ Test API with oldest date parameter
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFA.004: No <x-fapi-auth-date> in header (SR specific)](#assertion-a.cfa.004)
 * [A.CFC.004: No <x-fapi-customer-ip-address> in header (SR specific)](#assertion-a.cfc.004)
@@ -6358,7 +6317,7 @@ Test API without any pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFA.004: No <x-fapi-auth-date> in header (SR specific)](#assertion-a.cfa.004)
 * [A.CFC.004: No <x-fapi-customer-ip-address> in header (SR specific)](#assertion-a.cfc.004)
@@ -6428,7 +6387,6 @@ Test API without any pagination partameters
 |Action No.|Action Type|Detail|
 |-|-|-|
 |1|Action|POST /secondary/energy/electricity/servicepoints/usage|
-|2|Action|GET /secondary/energy/electricity/servicepoints/{servicePointId}/der|
 
 
 ### End State Assertions:
@@ -6437,8 +6395,49 @@ Test API without any pagination partameters
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 
 
+<a id="testcase-t.eas.027"></a>
+## T.EAS.027: DH call to SDH: Get DER for Service Point 
+
+Negative test case
+
+Obtain a list of DER data from a particular service point requested by the DH
+
+### Purpose:
+
+Test API with a vaild service point and version
+
+### References:
+
+* [https://consumerdatastandardsaustralia.github.io/standards/#get-der-for-service-point-sr](https://consumerdatastandardsaustralia.github.io/standards/#get-der-for-service-point-sr)
+
+
+### Execution Pre-conditions:
+
+* The {servicePointId} is set in the Path 
+* AND value &lt;x-v&gt; is set in the request header to a version supported by the DH
+
+
+### Execution Steps:
+
+|Action No.|Action Type|Detail|
+|-|-|-|
+|1|Action|GET /secondary/energy/electricity/servicepoints/{servicePointId}/der|
+
+
+### End State Assertions:
+
+* [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
+* [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
+* [A.CFA.004: No <x-fapi-auth-date> in header (SR specific)](#assertion-a.cfa.004)
+* [A.CFC.004: No <x-fapi-customer-ip-address> in header (SR specific)](#assertion-a.cfc.004)
+* [A.CCH.004: No <x-cds-client-header> in header (SR specific)](#assertion-a.cch.004)
+* [A.CAI.001: CDS arrangement id - present and valid (SR specific)](#assertion-a.cai.001)
+* [A.EAS.007: Validate service point and schema - EnergyDerDetailResponse](#assertion-a.eas.007)
+
+
 <a id="testcase-t.eas.028"></a>
-## T.EAS.028: DH call to SDH: Get Service Point Detail - unsupported version without x-v-min included
+## T.EAS.028: DH call to SDH: Get Service Point Detail - unsupported version without x-min-v included
 
 Positive test case
 
@@ -6468,7 +6467,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.004: Validate version - unsupported version without <x-v-min>](#assertion-a.cvn.004)
+* [A.CVN.004: Validate version - unsupported version without <x-min-v>](#assertion-a.cvn.004)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 
 
@@ -6571,7 +6570,7 @@ Test API without any pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFA.004: No <x-fapi-auth-date> in header (SR specific)](#assertion-a.cfa.004)
 * [A.CFC.004: No <x-fapi-customer-ip-address> in header (SR specific)](#assertion-a.cfc.004)
@@ -6611,7 +6610,7 @@ Test API with pagination partameters
 ### End State Assertions:
 
 * [A.CVN.001: Validate version - valid version number [x-v]](#assertion-a.cvn.001)
-* [A.CVM.001: Validate version - <x-v-min> is provided](#assertion-a.cvm.001)
+* [A.CVM.001: Validate version - <x-min-v> is provided](#assertion-a.cvm.001)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 * [A.CFA.004: No <x-fapi-auth-date> in header (SR specific)](#assertion-a.cfa.004)
 * [A.CFC.004: No <x-fapi-customer-ip-address> in header (SR specific)](#assertion-a.cfc.004)
@@ -6622,7 +6621,7 @@ Test API with pagination partameters
 
 
 <a id="testcase-t.eas.033"></a>
-## T.EAS.033: DH call to SDH: Get DER for Specific Service Points - unsupported version without x-v-min included
+## T.EAS.033: DH call to SDH: Get DER for Specific Service Points - unsupported version without x-min-v included
 
 Positive test case
 
@@ -6652,7 +6651,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.004: Validate version - unsupported version without <x-v-min>](#assertion-a.cvn.004)
+* [A.CVN.004: Validate version - unsupported version without <x-min-v>](#assertion-a.cvn.004)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 
 
@@ -7847,7 +7846,7 @@ Test API with invalid version format
 
 
 <a id="testcase-t.eas.069"></a>
-## T.EAS.069: DH call to SDH: Get Service Points - unsupported version when x-v-min is included
+## T.EAS.069: DH call to SDH: Get Service Points - unsupported version when x-min-v is included
 
 Positive test case
 
@@ -7865,7 +7864,7 @@ Test API with a version that is not supported by the DH
 ### Execution Pre-conditions:
 
 * the value &lt;x-v&gt; is set in the request header to a version not supported by the DH
-* AND the &lt;x-v-min&gt; is included
+* AND the &lt;x-min-v&gt; is included
 
 
 ### Execution Steps:
@@ -7877,12 +7876,12 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.005: Validate version - unsupported version with <x-v-min>](#assertion-a.cvn.005)
+* [A.CVN.005: Validate version - unsupported version with <x-min-v>](#assertion-a.cvn.005)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 
 
 <a id="testcase-t.eas.070"></a>
-## T.EAS.070: DH call to SDH: Get Service Point Detail - unsupported version when x-v-min is included
+## T.EAS.070: DH call to SDH: Get Service Point Detail - unsupported version when x-min-v is included
 
 Positive test case
 
@@ -7900,7 +7899,7 @@ Test API with a version that is not supported by the DH
 ### Execution Pre-conditions:
 
 * the value &lt;x-v&gt; is set in the request header to a version not supported by the DH
-* AND the &lt;x-v-min&gt; is included
+* AND the &lt;x-min-v&gt; is included
 
 
 ### Execution Steps:
@@ -7912,12 +7911,12 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.005: Validate version - unsupported version with <x-v-min>](#assertion-a.cvn.005)
+* [A.CVN.005: Validate version - unsupported version with <x-min-v>](#assertion-a.cvn.005)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 
 
 <a id="testcase-t.eas.071"></a>
-## T.EAS.071: DH call to SDH: Get Usage for Service Points - unsupported version when x-v-min is included
+## T.EAS.071: DH call to SDH: Get Usage for Service Points - unsupported version when x-min-v is included
 
 Positive test case
 
@@ -7935,7 +7934,7 @@ Test API with a version that is not supported by the DH
 ### Execution Pre-conditions:
 
 * the value &lt;x-v&gt; is set in the request header to a version not supported by the DH
-* AND the &lt;x-v-min&gt; is included
+* AND the &lt;x-min-v&gt; is included
 
 
 ### Execution Steps:
@@ -7947,12 +7946,12 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.005: Validate version - unsupported version with <x-v-min>](#assertion-a.cvn.005)
+* [A.CVN.005: Validate version - unsupported version with <x-min-v>](#assertion-a.cvn.005)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 
 
 <a id="testcase-t.eas.072"></a>
-## T.EAS.072: DH call to SDH: Get Usage for Specific Service Points - unsupported version when x-v-min is included
+## T.EAS.072: DH call to SDH: Get Usage for Specific Service Points - unsupported version when x-min-v  is included
 
 Positive test case
 
@@ -7970,7 +7969,7 @@ Test API with a version that is not supported by the DH
 ### Execution Pre-conditions:
 
 * the value &lt;x-v&gt; is set in the request header to a version not supported by the DH
-* AND the &lt;x-v-min&gt; is included
+* AND the &lt;x-min-v&gt; is included
 
 
 ### Execution Steps:
@@ -7982,12 +7981,12 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.005: Validate version - unsupported version with <x-v-min>](#assertion-a.cvn.005)
+* [A.CVN.005: Validate version - unsupported version with <x-min-v>](#assertion-a.cvn.005)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 
 
 <a id="testcase-t.eas.073"></a>
-## T.EAS.073: DH call to SDH: Get Service Point Detail - unsupported version when x-v-min is included
+## T.EAS.073: DH call to SDH: Get Service Point Detail - unsupported version when x-min-v is included
 
 Positive test case
 
@@ -8005,7 +8004,7 @@ Test API with a version that is not supported by the DH
 ### Execution Pre-conditions:
 
 * the value &lt;x-v&gt; is set in the request header to a version not supported by the DH
-* AND the &lt;x-v-min&gt; is included
+* AND the &lt;x-min-v&gt; is included
 
 
 ### Execution Steps:
@@ -8017,12 +8016,12 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.005: Validate version - unsupported version with <x-v-min>](#assertion-a.cvn.005)
+* [A.CVN.005: Validate version - unsupported version with <x-min-v>](#assertion-a.cvn.005)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 
 
 <a id="testcase-t.eas.074"></a>
-## T.EAS.074: DH call to SDH: Get DER for Specific Service Points - unsupported version when x-v-min is included
+## T.EAS.074: DH call to SDH: Get DER for Specific Service Points - unsupported version when x-min-v is included
 
 Positive test case
 
@@ -8040,7 +8039,7 @@ Test API with a version that is not supported by the DH
 ### Execution Pre-conditions:
 
 * the value &lt;x-v&gt; is set in the request header to a version not supported by the DH
-* AND the &lt;x-v-min&gt; is included
+* AND the &lt;x-min-v&gt; is included
 
 
 ### Execution Steps:
@@ -8052,7 +8051,7 @@ Test API with a version that is not supported by the DH
 
 ### End State Assertions:
 
-* [A.CVN.005: Validate version - unsupported version with <x-v-min>](#assertion-a.cvn.005)
+* [A.CVN.005: Validate version - unsupported version with <x-min-v>](#assertion-a.cvn.005)
 * [A.CFI.001: Validate FAPI Interation ID - included in request](#assertion-a.cfi.001)
 
 
@@ -8332,7 +8331,7 @@ Critical (Test Fails)
 
 
 <a id="assertion-a.cvn.004"></a>
-## A.CVN.004: Validate version - unsupported version without <x-v-min>
+## A.CVN.004: Validate version - unsupported version without <x-min-v>
 
 ### References:
 
@@ -8347,13 +8346,13 @@ Critical (Test Fails)
 
 |||
 |-|-|
-|Given|the &lt;x-v&gt;  is included in a  request header</br>AND &lt;x-v-min&gt; is NOT included|
+|Given|the &lt;x-v&gt;  is included in a  request header</br>AND &lt;x-min-v&gt; is NOT included|
 |When|the request version &lt;x-v&gt; is not supported|
 |Then|<div class="predicate outer">AND (</div><div class="predicate inner" style="margin-left:2em">the response has a status of 406</br> the response body has ErrorListReponse object</br> error code is "Header/UnsupportedVersion"</br></div><div class="predicate outer">)</div>|
 
 
 <a id="assertion-a.cvn.005"></a>
-## A.CVN.005: Validate version - unsupported version with <x-v-min>
+## A.CVN.005: Validate version - unsupported version with <x-min-v>
 
 ### References:
 
@@ -8368,13 +8367,13 @@ Critical (Test Fails)
 
 |||
 |-|-|
-|Given|the &lt;x-v&gt;  is included in a  request header</br>AND  &lt;x-v-min&gt;  is included|
+|Given|the &lt;x-v&gt;  is included in a  request header</br>AND  &lt;x-min-v&gt;  is included|
 |When|no version between &lt;x-v&gt; and &lt;x-min-v&gt; is supported|
 |Then|<div class="predicate outer">AND (</div><div class="predicate inner" style="margin-left:2em">the response has a status of 406</br> the response body has ErrorListReponse object</br> error code is "Header/UnsupportedVersion"</br></div><div class="predicate outer">)</div>|
 
 
 <a id="assertion-a.cvm.001"></a>
-## A.CVM.001: Validate version - <x-v-min> is provided
+## A.CVM.001: Validate version - <x-min-v> is provided
 
 ### References:
 
@@ -8389,13 +8388,13 @@ Critical (Test Fails)
 
 |||
 |-|-|
-|Given|the &lt;x-v-min&gt; header is included in a get request|
-|When|the value for the &lt;x-v-min&gt;  is a positive integer|
-|Then|<div class="predicate outer">AND (</div><div class="predicate inner" style="margin-left:2em">&lt;x-v&gt; is in the repsonse header</br>  &lt;x-v&gt; = [&lt;x-v-min&gt;, &lt;x-v&gt;]</br> &lt;x-v&gt; is a positive integer</br></div><div class="predicate outer">)</div>|
+|Given|the &lt;x-min-v&gt; header is included in a get request|
+|When|the value for the &lt;x-min-v&gt;  is a positive integer|
+|Then|<div class="predicate outer">AND (</div><div class="predicate inner" style="margin-left:2em">&lt;x-v&gt; is in the repsonse header</br>  &lt;x-v&gt; = [&lt;x-min-v&gt;, &lt;x-v&gt;]</br> &lt;x-v&gt; is a positive integer</br></div><div class="predicate outer">)</div>|
 
 
 <a id="assertion-a.cvm.002"></a>
-## A.CVM.002: Validate minimum version - validate <x-v-min> format
+## A.CVM.002: Validate minimum version - validate <x-min-v> format
 
 ### References:
 
@@ -8410,7 +8409,7 @@ Critical (Test Fails)
 
 |||
 |-|-|
-|Given|the &lt;x-v-min&gt; header is included in a get request|
+|Given|the &lt;x-min-v&gt; header is included in a get request|
 |When|the &lt;x-min-v&gt; is a not a positive integer|
 |Then|<div class="predicate outer">AND (</div><div class="predicate inner" style="margin-left:2em">the response has a status of 400</br> the response body has ErrorListReponse object</br> error code is "Field/Invalid"</br></div><div class="predicate outer">)</div>|
 
